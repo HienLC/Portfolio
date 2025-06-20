@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+ul, li, p{
+    list-style: none;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+.nav-list{
+    display: flex;
+    gap: 50px;
+}
+
+.login-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.blocks-btn{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin: 0px 300px;
+    padding: 100px 0px 100px 0px;
+}
+
+.hero-email{
+    display: flex;
+    gap: 10px;
+}
+
+.hero-email input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 0px 0px 0px 10px;
+    list-style: none;
+}
+
+.hero-email button{
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.service-container{
+    justify-content: space-around;
+    padding: 0px 0px 100px 0px;
+}
+
+.service-text{
+    text-align: center;
+}
+
+.service-img{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 100px;
+    margin: 0px 350px;
+}
+
+.skill-container{
+    justify-content: space-around;
+    text-align: center;
+}
+
+.skill-container P{
+    color: grey;
+    padding: 0px 0px 100px 0px;
+}
+
+.project-container{
+    text-align: center;
+}
+
+.project-container p{
+    color: grey;
+    padding: 0px 0px 100px 0px;
+}
+
+.list-skill-item{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 300px;
+    padding: 0px 0px 100px 0px;
+    gap: 200px;
+    text-align: center;
+}
+
+.list-project-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px 300px;
+    padding: 0px 0px 100px 0px;
+    gap: 50px;
+    width: 500px;
+}
+
+.project-detail{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+}
+
+.project-detail-info{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    height: 200px;
+}

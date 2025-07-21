@@ -24,6 +24,11 @@ body{
     text-align: justify;
 }
 
+.hero-img img{
+    border-radius: 10px;
+    width: 500px;
+}
+
 .objective-container{
     justify-content: space-around;
     text-align: center;
